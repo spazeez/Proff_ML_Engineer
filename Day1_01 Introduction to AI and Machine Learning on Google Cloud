@@ -1,0 +1,23 @@
+Module1: AI & Data
+
+Data Ingestion - pub/sub --> data flow---> data processing --> Cloud Data Fusion
+Data Storage SQL- BigQuery, Spanner, Cloud SQL ; NO SQL - Bigtable and Firestore 
+
+analytics: bigquery , looker tool
+
+AI / ML: VERTEX AI - Document AI Contact Center AI Vertex AI Search for Retail, and Healthcare Data Engine 
+
+AL --> ML--> DL --> GENAI 
+
+ML - SUPERVISED -> CLASSIFICATION - LINEAR REG
+                --> REGRESSION - logistic reg 
+  - UNSUPERVISED -> CLUSTERS - K MEAN ALGO
+                 --> association - Apriori
+  -              -> dimensionality - principal component analysis
+
+
+
+ BigQuery : https://cloud.google.com/bigquery/docs/loading-data
+
+Project 1 - Predict Visitor Purchases with BigQuery ML 
+
