@@ -1,0 +1,32 @@
+
+  pre-trained APIs - audio + multi modal
+
+  BigQuery ML - only tabular data
+
+  AutoML - multi modal
+
+  custom training - multi modal 
+
+    1. pre-trained APIs provided by Google Cloud
+      Speech, text, and language APIs For example, the Natural Language API derives insights from text using pre-trained large language models.
+    entity - names/country / things etc 
+        sentiment analysis 
+        syntax 
+        category 
+
+  Entity and Sentiment Analysis with the Natural Language API:
+        -----------------------------------------
+
+  nano request.json
+
+  {
+  "document":{
+    "type":"PLAIN_TEXT",
+    "content":"Joanne Rowling, who writes under the pen names J. K. Rowling and Robert Galbraith, is a British novelist and screenwriter who wrote the Harry Potter fantasy series."
+  },
+  "encodingType":"UTF8"
+}
+
+The Natural Language API also supports sending files stored in Cloud Storage for text processing. If you wanted to send a file from Cloud Storage, you would replace content with gcsContentUri and give it a value of the text file's uri in Cloud Storage.
+curl "https://language.googleapis.com/v1/documents:analyzeEntities?key=${API_KEY}" \
+  -s -X POST -H "Content-Type: application/json" --data-binary @request.json > result.json
