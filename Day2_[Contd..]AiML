@@ -1,0 +1,34 @@
+Data Prep
+Model Deployment --> train, evaluate 
+Model Serving --> delpoy, mointor
+  Deploy: Endpoint -> Realtime predictions
+          Batch Prediction -> 
+          off cloud - iot devices & measurements 
+
+
+MLOps : Dev + Deploy/Monitor/Release 
+        CI continuous integration
+        CT training
+        CD delivery
+
+
+Vertex AI Pipelines, which supports both Kubeflow Pipelines, or KFP, and TensorFlow Extended, or TFX
+
+ML PIPELINE:
+
+An ML pipeline contains a series of processes and runs in two different environments.
+
+
+ReLu:
+You can use the rectified linear unit (or ReLU) function, which turns an input value to zero if it’s negative, or keeps the original value if it’s positive. 0, infy
+the sigmoid function, which turns the input to a value between 0 and 1.  
+hyperbolic tangent (Tanh) function, which shifts the sigmoid curve and generates a value between -1 and +1.
+
+softmax is used for multi-class classification, whereas 
+sigmoid is used for binary-class classification in logistic regression models.
+
+regression problems, mean squared error, or MSE, is a common one used in linear regression models.
+classification problems, cross-entropy is typically used to measure the difference between the predicted and actual probability distributions in logistic regression models.
+
+
+
